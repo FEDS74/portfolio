@@ -1,0 +1,39 @@
+
+#home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/mountain.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: left;
+    margin: 0 auto;
+}    
+
+.content p {
+    text-align: left;
+}
+
+.content h1 {
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 767px) {
+    .content {
+        padding: 0;
+    }
+}
+
+
+
+
+
+

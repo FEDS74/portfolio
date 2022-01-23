@@ -1,0 +1,19 @@
+/* .navbar {
+    height: 100px !important;
+} */
+
+.nav-link, .navbar-brand {
+    color: white !important;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.nav-link {
+    font-size: large;    
+}
+
+
+

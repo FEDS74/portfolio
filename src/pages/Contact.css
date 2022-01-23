@@ -1,0 +1,11 @@
+#contact {
+    min-height: 100vh;
+}
+
+.form-label {
+    color: #ffffff !important;
+}
+
+#messageInput {
+    height: 200px;
+}

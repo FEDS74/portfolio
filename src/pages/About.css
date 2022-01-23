@@ -1,0 +1,92 @@
+
+aside {
+    width: 50%;
+    height: 50%;
+    Color: white;
+}
+
+.about ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about ul li {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.about ul li p {
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+.about ul li svg {
+    width: 1.6rem;
+    height: 1.6rem;
+    color: #ffb727;
+}
+
+.about .image {
+    background: url("../Images/portrett2.jpg") center center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.container-section {
+    width: 100% !important;
+    padding-right: 0.75rem !important;
+    padding-left: 0.75rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+
+.content ul strong {
+  margin-right: 10px;
+}
+
+.skills-content {
+  margin-top: 30px;
+}
+
+.skills-content .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills-content .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+}
+
+.skills-content .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills-content .progress-bar-wrap {
+  background: #e6e8eb;
+}
+
+.skills-content .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #ffb727;
+}
+
+@media screen and (max-width: 767px) {
+   .aside {
+       flex-direction: column;
+   }
+}
